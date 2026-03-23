@@ -4,5 +4,4 @@ services:
     build: .
     ports:
       - "443:443"
-    # Notice: No 'volumes' section here anymore
     restart: always

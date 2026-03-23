@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web-service:
+    build: .
+    ports:
+      - "443:443"
+    # Notice: No 'volumes' section here anymore
+    restart: always
